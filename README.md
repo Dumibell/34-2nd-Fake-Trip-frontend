@@ -40,8 +40,8 @@
 - Front-End : HTML, Styled-component, Javascript , React , React Router, Slider, Carousel, antd, axios, Rangepicker, calender, dropdown
 
 ### **구현 기능**
-
-- 각자 작성
+1. 지역/날짜/인원수 선택 모달창 구현
+2. querystring을 활용한 필터링 기능 구현
 
 ## **Reference**
 
