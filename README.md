@@ -40,8 +40,29 @@
 - Front-End : HTML, Styled-component, Javascript , React , React Router, Slider, Carousel, antd, axios, Rangepicker, calender, dropdown
 
 ### **구현 기능**
-1. 지역/날짜/인원수 선택 모달창 구현
-2. querystring을 활용한 필터링 기능 구현
+#### 1. 검색창 구현
+![Jul-23-2022 16-54-06](https://user-images.githubusercontent.com/100185602/189517838-9c3e8938-061b-4ed2-9669-8eb5b5eaa9bf.gif)
+
+1) 검색 기능
+ - input창이 onFocus일 때 모달창이 열리도록 구현.
+ - 검색창에 입력한 값을 state에 저장
+2) 날짜 선택: 캘린더 라이브러리를 이용해 구현
+- 검색창 UI에 맞게 style값 조정
+- 시작날짜와 끝날짜를 배열의 형태로 state에 저장
+3) 인원수 선택
+- 어른과 아이의 인원수를 각각 조정할 수 있도록 하고, 총 인원수를 state에 저장.
+<br/><br/>
+
+#### 2. querystring을 활용한 필터링 기능 구현
+![Jul-24-2022 15-24-17](https://user-images.githubusercontent.com/100185602/189518368-8ad82413-053b-4578-9bcc-d5b4547192c5.gif)
+
+- 숙소 카테고리, 가격, 호텔 등급, 호텔 내부시설 등을 선택할 수 있는 부분을 각각 구현 -> state에 저장
+- 백엔드에서 넘겨준 end point를 query string으로 연결
+<br/><br/>
+
+### 프로젝트 회고록 주소
+https://velog.io/@dumibell/2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-myfaketrip
+
 
 ## **Reference**
 
